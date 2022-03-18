@@ -1,0 +1,6 @@
+全局安装typeScript
+  npm i -g typescript
+用命令行工具打开当前文件夹位置，然后用 
+  tsc 01_第一次.ts 
+将ts文件编译成 tsc 01_第一次.js 
+然后在index.html使用就不会报错了(原本的ts文件声明了变量是string,直接在浏览器中使用会因不能识别而报错)

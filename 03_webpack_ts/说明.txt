@@ -1,0 +1,5 @@
+当前配置
+npm run build 打包可行
+npm run dev 会安装 @webpack-cli/serve@1.6.1
+peer webpack-cli@"4.x.x" from @webpack-cli/serve@1.6.1
+安装成功以后就出现一个配置报错

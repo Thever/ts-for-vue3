@@ -1,0 +1,7 @@
+1.使用typescript生成配置文件tsconfig.json
+  tsc --init
+2.修改tsconfig.json 配置
+  "outDir":"./js",    // 将编译后的文件输出到./js目录下
+  "strict": false     // 关闭严格模式
+3.vscode启动监视任务：
+  菜单栏终端 -> 运行任务 -> 监视tsconfig.json
